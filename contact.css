@@ -1,0 +1,51 @@
+.sub-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.542),rgba(0, 0, 0, 0.678)),url(assets/hero3.jpg) center/cover;
+}
+
+
+
+main img {
+    width: 100%;
+}
+
+form {
+    display: grid;
+    row-gap: 1rem;
+    padding: 2rem 2.5rem;
+}
+
+form input,
+form textarea {
+    border: none;
+    outline: none;
+    padding: 0 0.5rem ;
+    display: block;
+    border-bottom: 1px solid rgb(77, 15, 15);
+    margin-top: 2rem;
+}
+
+form button {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background: #d38e0d;
+    color: white;
+    border: 1px solid #d38e0d;
+    transition: .3s ease-out;
+    cursor: pointer;
+    max-height: 50px;
+    margin-top: 20px;
+}
+
+form button:hover {
+    background: transparent;
+    color: #d38e0d;
+}
+
+@media screen and (min-width: 800px) {
+    main {
+        grid-template-columns: repeat(2,1fr);
+        width: 80%;
+        margin: 30px auto;
+        box-shadow: 0 0 2px 2px #7e4a0657;
+    }
+}

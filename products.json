@@ -1,0 +1,153 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "featured":false,
+        "fields": {
+          "title": "product",
+          "price": 10.99,
+          "image": "./assets/products/pr1.jpg",
+          "category":"women" 
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "featured": true,
+        "fields": {
+          "title": "king panel bed",
+          "price": 12.99,
+          "image": "./assets/products/pr2.jpg",
+          "category":"women"   
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "featured": true,
+        "fields": {
+          "title": "single panel bed",
+          "price": 12.99,
+          "image": "./assets/products/pr3.jpg",
+          "category":"women"   
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "featured": true,
+        "fields": {
+          "title": "twin panel bed",
+          "price": 22.99,
+          "image": "./assets/products/pr4.jpg",
+          "category":"men" 
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "featured": true,
+        "fields": {
+          "title": "fridge",
+          "price": 88.99,
+          "image": "./assets/products/pr5.jpg",
+          "category":"kids"  
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "fields": {
+          "title": "dresser",
+          "price": 32.99,
+          "image": "./assets/products/pr6.jpg",
+          "category":"women"  
+        }
+      },
+      {
+        "sys": { "id": "7" },
+        "fields": {
+          "title": "couch",
+          "price": 45.99,
+          "image": "./assets/products/pr7.jpg",
+          "category":"kids" 
+        }
+      },
+      {
+        "sys": { "id": "8" },
+        "fields": {
+          "title": "table",
+          "price": 33.99,
+          "image": "./assets/products/pr8.jpg",
+          "category":"kids"  
+        }
+      },
+      {
+        "sys": { "id": "9" },
+        "featured": true,
+        "fields": {
+          "title": "product",
+          "price": 10.99,
+          "image": "./assets/products/pr9.jpg",
+          "category":"Women" 
+        }
+      },
+      {
+        "sys": { "id": "10" },
+        "fields": {
+          "title": "product",
+          "price": 78.99,
+          "image": "./assets/products/pr10.jpg",
+          "category":"men"  
+        }
+      },
+        {
+        "sys": { "id": "11" },
+        "featured": true,
+        "fields": {
+          "title": "product",
+          "price": 88.99,
+          "image": "./assets/products/pr11.jpg",
+          "category":"women"   
+        }
+      },
+      {
+        "sys": { "id": "12" },
+        "fields": {
+          "title": "product",
+          "price": 100.99,
+          "image": "./assets/products/pr12.jpg",
+          "category":"women"  
+        }
+      },      
+      {
+        "sys": { "id": "13" },
+        "fields": {
+          "title": "product",
+          "price": 15.99,
+          "image": "./assets/products/pr13.jpg",
+          "category":"women"  
+        }
+      },      {
+        "sys": { "id": "14" },
+        "fields": {
+          "title": "product",
+          "price": 40.99,
+          "image": "./assets/products/pr14.jpg",
+          "category":"women"  
+        }
+      },
+      {
+        "sys": { "id": "15" },
+        "fields": {
+          "title": "product",
+          "price": 64.99,
+          "image": "./assets/products/pr15.jpg",
+          "category":"women"   
+        }
+      },      {
+        "sys": { "id": "16" },
+        "fields": {
+          "title": "product",
+          "price": 78.99,
+          "image": "./assets/products/pr16.jpg",
+          "category":"women"  
+        }
+      }
+    ]
+  }

@@ -1,0 +1,43 @@
+.sub-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.542),rgba(0, 0, 0, 0.678)),url(assets/hero1.jpg) center/cover;
+}
+
+main h1 {
+    text-align: center;
+    margin: 3rem auto;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.categories {
+    margin: 0 auto;
+}
+
+.categories button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1.2rem;
+    border-radius: 0.5rem;
+}
+
+.categories button:hover {
+    background: black;
+    color: white;
+}
+
+
+.products-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(370px,1fr));
+    padding-bottom: 3rem;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 450px) {
+    .products-grid {
+        width: 80%;
+        grid-template-columns: repeat( auto-fit, minmax(180px, 1fr) );
+    }
+}
